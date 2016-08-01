@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060315901CDE59D200BBEDD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0603158F1CDE59D200BBEDD7 /* main.m */; };
+		060315931CDE59D200BBEDD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 060315921CDE59D200BBEDD7 /* AppDelegate.m */; };
+		060315991CDE59D300BBEDD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060315971CDE59D300BBEDD7 /* Main.storyboard */; };
+		0603159B1CDE59D300BBEDD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0603159A1CDE59D300BBEDD7 /* Assets.xcassets */; };
+		0603159E1CDE59D300BBEDD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0603159C1CDE59D300BBEDD7 /* LaunchScreen.storyboard */; };
+		060315A71CDE5AB100BBEDD7 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 060315A61CDE5AB100BBEDD7 /* MainTableViewController.m */; };
+		060315CC1CDE730600BBEDD7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060315CB1CDE730600BBEDD7 /* MapKit.framework */; };
+		060315CF1CDE894500BBEDD7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 060315CE1CDE894500BBEDD7 /* DetailViewController.m */; };
+		060315D11CDE8D1600BBEDD7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060315D01CDE8D1600BBEDD7 /* CoreLocation.framework */; };
+		060315D71CDED8DD00BBEDD7 /* NextTrainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 060315D61CDED8DD00BBEDD7 /* NextTrainTableViewCell.m */; };
+		060D46991D249BA8001DC013 /* JTProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 060D46981D249BA8001DC013 /* JTProgressHUD.m */; };
+		061714C21D006B920058CCCC /* loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 061714C11D006B920058CCCC /* loading.jpg */; };
+		0626C5021CEEB55B000B4370 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0626C5011CEEB55B000B4370 /* 1.jpg */; };
+		0626C5041CEEB77C000B4370 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0626C5031CEEB77C000B4370 /* 2.jpg */; };
+		0651650A1CE2B2DF00E69076 /* MapAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = 065165091CE2B2DF00E69076 /* MapAnnotations.m */; };
+		06AEA6B71D012F7700AC8A33 /* MetroMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AEA6B61D012F7700AC8A33 /* MetroMapViewController.m */; };
+		06AEA6B91D01301300AC8A33 /* wmataMap.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 06AEA6B81D01301300AC8A33 /* wmataMap.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0603158B1CDE59D200BBEDD7 /* VinodWmata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinodWmata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0603158F1CDE59D200BBEDD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		060315911CDE59D200BBEDD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		060315921CDE59D200BBEDD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		060315981CDE59D300BBEDD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0603159A1CDE59D300BBEDD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0603159D1CDE59D300BBEDD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0603159F1CDE59D300BBEDD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060315A51CDE5AB100BBEDD7 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		060315A61CDE5AB100BBEDD7 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		060315CB1CDE730600BBEDD7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		060315CD1CDE894500BBEDD7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		060315CE1CDE894500BBEDD7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		060315D01CDE8D1600BBEDD7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		060315D51CDED8DD00BBEDD7 /* NextTrainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextTrainTableViewCell.h; sourceTree = "<group>"; };
+		060315D61CDED8DD00BBEDD7 /* NextTrainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextTrainTableViewCell.m; sourceTree = "<group>"; };
+		060D46971D249BA8001DC013 /* JTProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTProgressHUD.h; path = VinodWmata/JTProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		060D46981D249BA8001DC013 /* JTProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTProgressHUD.m; path = VinodWmata/JTProgressHUD.m; sourceTree = SOURCE_ROOT; };
+		061714C11D006B920058CCCC /* loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loading.jpg; sourceTree = "<group>"; };
+		0626C5011CEEB55B000B4370 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		0626C5031CEEB77C000B4370 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		065165081CE2B2DF00E69076 /* MapAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotations.h; sourceTree = "<group>"; };
+		065165091CE2B2DF00E69076 /* MapAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotations.m; sourceTree = "<group>"; };
+		06AEA6B51D012F7700AC8A33 /* MetroMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroMapViewController.h; sourceTree = "<group>"; };
+		06AEA6B61D012F7700AC8A33 /* MetroMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroMapViewController.m; sourceTree = "<group>"; };
+		06AEA6B81D01301300AC8A33 /* wmataMap.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = wmataMap.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		060315881CDE59D200BBEDD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060315D11CDE8D1600BBEDD7 /* CoreLocation.framework in Frameworks */,
+				060315CC1CDE730600BBEDD7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060315821CDE59D200BBEDD7 = {
+			isa = PBXGroup;
+			children = (
+				060315D01CDE8D1600BBEDD7 /* CoreLocation.framework */,
+				060315CB1CDE730600BBEDD7 /* MapKit.framework */,
+				0603158D1CDE59D200BBEDD7 /* VinodWmata */,
+				0603158C1CDE59D200BBEDD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0603158C1CDE59D200BBEDD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0603158B1CDE59D200BBEDD7 /* VinodWmata.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0603158D1CDE59D200BBEDD7 /* VinodWmata */ = {
+			isa = PBXGroup;
+			children = (
+				06B35FA41D0670A8004F7B23 /* JTProgressHUD */,
+				060315911CDE59D200BBEDD7 /* AppDelegate.h */,
+				060315921CDE59D200BBEDD7 /* AppDelegate.m */,
+				060315971CDE59D300BBEDD7 /* Main.storyboard */,
+				06AEA6B51D012F7700AC8A33 /* MetroMapViewController.h */,
+				06AEA6B61D012F7700AC8A33 /* MetroMapViewController.m */,
+				065165081CE2B2DF00E69076 /* MapAnnotations.h */,
+				065165091CE2B2DF00E69076 /* MapAnnotations.m */,
+				060315A51CDE5AB100BBEDD7 /* MainTableViewController.h */,
+				060315A61CDE5AB100BBEDD7 /* MainTableViewController.m */,
+				060315CD1CDE894500BBEDD7 /* DetailViewController.h */,
+				060315CE1CDE894500BBEDD7 /* DetailViewController.m */,
+				060315D51CDED8DD00BBEDD7 /* NextTrainTableViewCell.h */,
+				060315D61CDED8DD00BBEDD7 /* NextTrainTableViewCell.m */,
+				0603159A1CDE59D300BBEDD7 /* Assets.xcassets */,
+				0603159C1CDE59D300BBEDD7 /* LaunchScreen.storyboard */,
+				0603159F1CDE59D300BBEDD7 /* Info.plist */,
+				0603158E1CDE59D200BBEDD7 /* Supporting Files */,
+			);
+			path = VinodWmata;
+			sourceTree = "<group>";
+		};
+		0603158E1CDE59D200BBEDD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06AEA6B81D01301300AC8A33 /* wmataMap.pdf */,
+				061714C11D006B920058CCCC /* loading.jpg */,
+				060B54C71CF61B3B00EBE88B /* BG Images */,
+				0603158F1CDE59D200BBEDD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		060B54C71CF61B3B00EBE88B /* BG Images */ = {
+			isa = PBXGroup;
+			children = (
+				0626C5011CEEB55B000B4370 /* 1.jpg */,
+				0626C5031CEEB77C000B4370 /* 2.jpg */,
+			);
+			name = "BG Images";
+			sourceTree = "<group>";
+		};
+		06B35FA41D0670A8004F7B23 /* JTProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				060D46971D249BA8001DC013 /* JTProgressHUD.h */,
+				060D46981D249BA8001DC013 /* JTProgressHUD.m */,
+			);
+			name = JTProgressHUD;
+			path = "/Users/vinodkumarlingamsetty/Downloads/JTProgressHUD-master/JTProgressHUD Example/../JTProgressHUD";
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0603158A1CDE59D200BBEDD7 /* VinodWmata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060315A21CDE59D300BBEDD7 /* Build configuration list for PBXNativeTarget "VinodWmata" */;
+			buildPhases = (
+				060315871CDE59D200BBEDD7 /* Sources */,
+				060315881CDE59D200BBEDD7 /* Frameworks */,
+				060315891CDE59D200BBEDD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VinodWmata;
+			productName = VinodWmata;
+			productReference = 0603158B1CDE59D200BBEDD7 /* VinodWmata.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		060315831CDE59D200BBEDD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "vinod kumar lingamsetty";
+				TargetAttributes = {
+					0603158A1CDE59D200BBEDD7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9JL529NFTA;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 060315861CDE59D200BBEDD7 /* Build configuration list for PBXProject "VinodWmata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 060315821CDE59D200BBEDD7;
+			productRefGroup = 0603158C1CDE59D200BBEDD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0603158A1CDE59D200BBEDD7 /* VinodWmata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		060315891CDE59D200BBEDD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0603159E1CDE59D300BBEDD7 /* LaunchScreen.storyboard in Resources */,
+				0626C5021CEEB55B000B4370 /* 1.jpg in Resources */,
+				0626C5041CEEB77C000B4370 /* 2.jpg in Resources */,
+				06AEA6B91D01301300AC8A33 /* wmataMap.pdf in Resources */,
+				061714C21D006B920058CCCC /* loading.jpg in Resources */,
+				0603159B1CDE59D300BBEDD7 /* Assets.xcassets in Resources */,
+				060315991CDE59D300BBEDD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		060315871CDE59D200BBEDD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060315A71CDE5AB100BBEDD7 /* MainTableViewController.m in Sources */,
+				06AEA6B71D012F7700AC8A33 /* MetroMapViewController.m in Sources */,
+				060315D71CDED8DD00BBEDD7 /* NextTrainTableViewCell.m in Sources */,
+				060315931CDE59D200BBEDD7 /* AppDelegate.m in Sources */,
+				060315901CDE59D200BBEDD7 /* main.m in Sources */,
+				060315CF1CDE894500BBEDD7 /* DetailViewController.m in Sources */,
+				060D46991D249BA8001DC013 /* JTProgressHUD.m in Sources */,
+				0651650A1CE2B2DF00E69076 /* MapAnnotations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		060315971CDE59D300BBEDD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				060315981CDE59D300BBEDD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0603159C1CDE59D300BBEDD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0603159D1CDE59D300BBEDD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		060315A01CDE59D300BBEDD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		060315A11CDE59D300BBEDD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		060315A31CDE59D300BBEDD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = VinodWmata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinod.VinodWmata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		060315A41CDE59D300BBEDD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = VinodWmata/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinod.VinodWmata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		060315861CDE59D200BBEDD7 /* Build configuration list for PBXProject "VinodWmata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060315A01CDE59D300BBEDD7 /* Debug */,
+				060315A11CDE59D300BBEDD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060315A21CDE59D300BBEDD7 /* Build configuration list for PBXNativeTarget "VinodWmata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060315A31CDE59D300BBEDD7 /* Debug */,
+				060315A41CDE59D300BBEDD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 060315831CDE59D200BBEDD7 /* Project object */;
+}
